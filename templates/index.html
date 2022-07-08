@@ -1,0 +1,14 @@
+<h1>Hello World!</h1>
+
+<p>This is my first web page.</p>
+
+<p>Add more information {{first_name}}</p>
+
+<h3>Favorite Pizza</h3>
+
+{% for topping in favorite_pizza %}
+    {{topping}} <br>
+{% endfor %}    
+
+<br><br>
+{{favorite_pizza.0}}
